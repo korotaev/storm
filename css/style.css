@@ -1,0 +1,435 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fontin;
+    src: url('../fonts/FontinSans_Cyrillic_B_46b.otf');
+}
+
+a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+a:hover {
+    color: #E24A5B;
+}
+
+.layer {
+    width: 100%;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+.layer .title {
+    text-align: center;
+    font-family: fontin;
+    font-size: 62px;
+    /*margin-top: 20px;*/
+    margin-bottom: 10px;
+}
+.layer .content {
+    width: 1000px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+/*-- welcome ----------------*/
+
+.layer.welcome {
+    background-color: grey;
+    background-image: url('../img/back.jpg');
+    background-size: 100%;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.layer.welcome .logo {
+    width: 226px;
+    height: 226px;
+    background-image: url('../img/logo.png');
+    display: inline-block;
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+    .layer.welcome .logo {
+        background:url('../img/logo@2x.png');
+        background-size: 226px 226px;
+    }
+}
+
+.layer.welcome .logo_title .title {
+    /*position: absolute;*/
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: white;
+    height: 78px;
+    line-height: 1.5;
+}
+.layer.welcome .logo_title * {
+    display: inline-block;
+    vertical-align: top;
+}
+.layer.welcome .logo_title .end{
+    width: 106px;
+    height: 78px;
+    background-image: url('../img/ends.png');
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .layer.welcome .logo_title .end{
+        background-image: url('../img/ends@2x.png');
+        background-size: 212px 78px;
+    }
+
+}
+
+
+    .layer.welcome .logo_title .end.right{
+    background-position: -106px 0;
+}
+
+.layer.welcome .title.phone {
+    font-size: 54px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*-- describe ----------------*/
+
+.layer.describe {
+
+}
+.layer.describe .content {
+    text-align: left;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+/*-- video ----------------*/
+
+.layer.video {
+    background-color: #E3E3E3;
+}
+.layer ul.pref {
+    text-align: left;
+    list-style-position: inside;
+    margin-top: 20px;
+}
+.layer ul.pref li {
+    margin-bottom: 13px;
+}
+
+/*-- pahse ----------------*/
+
+.layer.phase {
+    background-color: #455B6F;
+}
+.layer.phase .content .title {
+    color: white;
+}
+.layer.phase .content table {
+}
+.layer.phase .content table tr {
+}
+.layer.phase .content table tr td {
+    width: 33%;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 220px;
+    position: relative;
+}
+.layer.phase .content table tr td span {
+    vertical-align: top;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 10px;
+    position: relative;
+    top: -7px;
+}
+.layer.phase .content table tr td .red_circle {
+    background-color: #FF5454;
+    width: 210px;
+    height: 210px;
+    border-radius: 105px;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+.layer.phase .content table tr td .phase_pic {
+    position: absolute;
+    width: 197px;
+    height: 180px;
+    background-image: url('../img/fighters.png');
+    top: 40px;
+    left: 15px;
+}
+.layer.phase .content table tr td .phase_pic.p1 {
+    background-position: 0 0px;
+}
+.layer.phase .content table tr td .phase_pic.p2 {
+    background-position: 0 -180px;
+}
+.layer.phase .content table tr td .phase_pic.p3 {
+    background-position: 0 -360px;
+}
+.layer.phase .content table tr td .phase_pic.p4 {
+    background-position: 0 -540px;
+}
+.layer.phase .content table tr td .phase_pic.p5 {
+    background-position: 0 -720px;
+}
+.layer.phase .content table tr td .phase_pic.p6 {
+    background-position: 0 -900px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .layer.phase .content table tr td .phase_pic {
+        width: 197px;
+        height: 180px;
+        background-image: url('../img/fighters@2x.png');
+        background-size: 197px 1080px;
+    }
+
+}
+
+
+.layer.phase .content table tr td div.phase_text {
+    color: white;
+    display: inline-block;
+    width: 85%;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+/*-- need ----------------*/
+
+.layer.need {
+    background-color: #E3E3E3;
+}
+.layer.need .content {
+    text-align: left;
+}
+.layer.need .content .body {
+    vertical-align: top;
+    display: inline-block;
+    width: 700px;
+    margin-top: 30px;
+}
+.layer.need .content .body p {
+    margin-bottom: 20px;
+
+}
+.layer.need .content .link {
+    margin-top: 30px;
+    vertical-align: top;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    line-height: 0.8;
+    position: relative;
+    left: 70px;
+    top: -10px;
+}
+.layer.need .content .link a {
+    font-size: 18px;
+}
+.layer.need .content .link a .pic {
+    width: 210px;
+    height: 210px;
+    border-radius: 105px;
+    background-image: url('../img/tshirt.png');
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .layer.need .content .link a .pic {
+        background-image: url('../img/tshirt@2x.png');
+        background-size: 210px 210px;
+    }
+
+}
+
+
+
+/*-- gym ----------------*/
+
+.layer.gym {
+}
+.layer.gym .content .title{
+    margin-bottom: 30px;
+}
+.layer.gym .content .columns .couch * {
+    text-align: center;
+}
+.layer.gym .content .columns .couch {
+    vertical-align: top;
+    display: inline-block;
+    width: 38%;
+    /*border: 1px solid black;*/
+    margin: 0 50px;
+}
+.layer.gym .content .columns .couch.contact {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+.layer.gym .content .columns .couch .place {
+    color: #FF2626;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.layer.gym .content .columns .couch .photo {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image: url('../img/couch.jpg');
+    margin-bottom: 10px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .layer.gym .content .columns .couch .photo {
+        background-image: url('../img/couch@2x.jpg');
+        background-size: 400px 200px;
+    }
+
+}
+
+.layer.gym .content .columns .couch .photo.kor {
+    background-position: -200px 0;
+}
+.layer.gym .content .columns .couch .name {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.layer.gym .content .columns .couch .position {
+    font-style: italic;
+    color: black;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.layer.gym .content .columns .couch .phone {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.layer.gym .content .columns .couch .address {
+    font-size: 21px;
+}
+.layer.gym .content .columns .couch a {
+    font-size: 21px;
+    display: block;
+    margin-bottom: 20px;
+}
+.layer.gym .content .columns .couch .timetable {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.layer.gym .content .columns .couch .timetable tr td .colon {
+    color: #555;
+    margin-left: 1px;
+    margin-right: 3px;
+    position: relative;
+    top: -1px;
+}
+.layer.gym .content .columns .couch .timetable tr td {
+    padding: 4px 6px;
+}
+.layer.gym .content .columns .couch .timetable tr td:first-child {
+    font-weight: bold;
+}
+.layer.gym .content .group {
+    width: 860px;
+    border-top: 1px solid #ccc;
+    display: inline-block;
+    padding-top: 25px;
+}
+.layer.gym .content .group * {
+    margin-bottom: 20px;
+}
+
+span.rub {
+    position: relative;
+    display: inline-block;
+    font-size: 26px;
+    line-height: 0.2;
+    border-bottom: 2px solid #000000;
+    width: 0.5em;
+}
+
+/*-- req ----------------*/
+
+.layer.req {
+    background-color: #455B6F;
+}
+.layer.req .content {
+    color: white;
+}
+.layer.req .content form {
+    text-align: center;
+    margin-top: 30px;
+}
+.layer.req .content form input, .layer.req .content form textarea {
+    display: block;
+    left: 50%;
+    position: relative;
+    width: 430px;
+    height: 35px;
+    margin-left: -215px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.layer.req .content form textarea {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.layer.req .content form .button {
+    display: inline-block;
+    padding: 5px 100px;
+    background-image: linear-gradient(-180deg, #FF7373 0%, #E04949 100%);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.50);
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.layer.req .content form .button:hover {
+    background-image: linear-gradient(-180deg, #FF8C8C 0%, #D55151 100%);
+}
+.layer.req .content form .button:active {
+    background-image: linear-gradient(-180deg, #FF6565 0%, #D33737 100%);
+}
+
+
