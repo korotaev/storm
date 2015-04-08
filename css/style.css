@@ -412,6 +412,7 @@ span.rub {
     margin-bottom: 10px;
 }
 .layer.req .content form textarea {
+    font-family: "PT Sans", sans-serif;
     height: 100px;
     margin-bottom: 30px;
 }
