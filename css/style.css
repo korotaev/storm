@@ -127,6 +127,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .layer.video {
     background-color: #E3E3E3;
 }
+.layer.video .content p {
+    text-align: left;
+    margin-top: 20px;
+}
 .layer ul.pref {
     text-align: left;
     list-style-position: inside;
@@ -253,7 +257,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .layer.need .content .link a {
     font-size: 18px;
 }
-.layer.need .content .link a .pic {
+.layer.need .content .link .pic {
     width: 210px;
     height: 210px;
     border-radius: 105px;
@@ -370,9 +374,14 @@ only screen and (min-device-pixel-ratio: 1.5) {
     border-top: 1px solid #ccc;
     display: inline-block;
     padding-top: 25px;
+    margin-bottom: 40px;
 }
 .layer.gym .content .group * {
     margin-bottom: 20px;
+}
+
+.layer.gym .content .group a {
+    font-size: 30px;
 }
 
 span.rub {
@@ -391,7 +400,45 @@ span.rub {
 }
 .layer.req .content {
     color: white;
+    padding-top: 0;
 }
+
+.layer.req .phone_black {
+    position: relative;
+    top: -39px;
+}
+
+.layer.req .phone_black .phone {
+    background-color: black;
+    height: 78px;
+    line-height: 1.6;
+    color: white;
+    font-family: fontin;
+    font-size: 51px;
+}
+.layer.req .phone_black * {
+    display: inline-block;
+    vertical-align: top;
+}
+.layer.req .phone_black .end{
+    width: 106px;
+    height: 78px;
+    background-image: url('../img/ends_black.png');
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    .layer.req .phone_black .end{
+        background-image: url('../img/ends_black@2x.png');
+        background-size: 212px 78px;
+    }
+}
+.layer.req .phone_black .end.right{
+    background-position: -106px 0;
+}
+
+
 .layer.req .content form {
     text-align: center;
     margin-top: 30px;
