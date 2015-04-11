@@ -6,13 +6,15 @@ function init() {
     var myPlacemark;
     var myPlacemark2;
 
+    var kropCenter = [55.744269, 37.591539];
+
     function init2(){
         myMap = new ymaps.Map ("map_krop", {
-            center: [55.742869, 37.591539],
+            center: kropCenter,
             zoom: 15,
             controls: ['zoomControl']
         });
-        myPlacemark = new ymaps.Placemark([55.742869, 37.591539], { content: 'Штурмовой бой', balloonContent: 'Чистый переулок, 6' });
+        myPlacemark = new ymaps.Placemark(kropCenter, { content: 'Штурмовой бой', balloonContent: 'Чистый переулок, 6' });
         myPlacemark2 = new ymaps.Placemark([55.772689, 37.687659], { content: 'Штурмовой бой', balloonContent: 'Малая почтовая, 12' });
         myMap.geoObjects.add(myPlacemark);
         myMap.geoObjects.add(myPlacemark2);
@@ -32,7 +34,7 @@ function init() {
         $('#map1').fadeIn();
         $('#map2').fadeOut();
         $('.left_stripe').animate({'width' : '720px'}, 400);
-        myMap.setCenter([55.742869, 37.591539]);
+        myMap.setCenter(kropCenter);
     });
 
 }
