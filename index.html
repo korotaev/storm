@@ -5,13 +5,13 @@
 <title>Штурмовой бой</title>
 
     <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <!--<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>-->
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 
-	<script type="text/javascript">
+
+    <script type="text/javascript">
 		$(document).ready(function(){
             init();
 		});
@@ -129,7 +129,6 @@
             <div class="columns">
                 <div class="couch contact">
                     <div class="address">м. Бауманская. Малая почтовая ул., 12</div>
-                    <a href="#">показать на карте</a>
                     <table class="timetable">
                         <tr>
                             <td>вт</td>
@@ -140,10 +139,12 @@
                             <td>21<span class="colon">:</span>00–22<span class="colon">:</span>30</td>
                         </tr>
                     </table>
+                    <div class="place_for_link_map">
+                        <div class="link_map" id="map1">показать на карте</div>
+                    </div>
                 </div>
                 <div class="couch contact">
                     <div class="address">м. Кропоткинская. Чистый пер., 6<br><i>(железная зверь в арке)</i></div>
-                    <a href="#">показать на карте</a>
                     <table class="timetable">
                         <tr>
                             <td>пн</td>
@@ -158,8 +159,19 @@
                             <td>10<span class="colon">:</span>00–12<span class="colon">:</span>00</td>
                         </tr>
                     </table>
+                    <div class="place_for_link_map">
+                        <div class="link_map" id="map2">показать на карте</div>
+                    </div>
+
                 </div>
             </div>
+
+            <div class="map_container">
+                <div id="map_krop" class="map krop"></div>
+                <div class="tail_container"><div class="left_stripe"></div><div class="tail"></div><div class="right_stripe"></div></div>
+            </div>
+
+
             <div class="group">
                 <p>Стоимость групповых занятий составляет <b>4 000 <span class="ruble rel">p<span class="dot dborder">.</span></span></b> в месяц.<br>Для студентов и военных существуют скидки.</p>
                 <p>Возможно проведение персональных занятий с выездом<br>тренера по Вашему адресу в Москве.</p>

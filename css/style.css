@@ -349,15 +349,23 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .layer.gym .content .columns .couch .address {
     font-size: 21px;
 }
-.layer.gym .content .columns .couch a {
+.layer.gym .content .columns .couch .place_for_link_map {
+    position: relative;
+    /*border: 1px solid black;*/
+}
+.layer.gym .content .columns .couch .place_for_link_map .link_map {
     font-size: 21px;
-    display: block;
-    margin-bottom: 20px;
+    width: 100%;
+    cursor: pointer;
+    color: #4A90E2;
+    top: -10px;
+    position: absolute;
+    /*margin-bottom: 20px;*/
 }
 .layer.gym .content .columns .couch .timetable {
     font-size: 20px;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .layer.gym .content .columns .couch .timetable tr td .colon {
     color: #555;
@@ -374,19 +382,19 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 .layer.gym .content .group {
     width: 860px;
-    border-top: 1px solid #ccc;
+    /*border-top: 1px solid #ccc;*/
     display: inline-block;
     padding-top: 25px;
     margin-bottom: 40px;
 }
 .layer.gym .content .group * {
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .layer.gym .content .group a {
     font-size: 30px;
 }
-
 
 span.ruble { text-transform:uppercase; }
 span.rel { position: relative; }
@@ -394,16 +402,45 @@ span.dborder { top: -1.2ex; left: 0; width:1ex; border-bottom: 0.16ex solid blac
 span.dot { position:absolute; text-indent: -1000em; }
 
 
-/*span.rub {*/
-    /*position: relative;*/
-    /*top: 10px;*/
-    /*display: inline-block;*/
-    /*font-size: 26px;*/
-    /*line-height: 5px;*/
-    /*border-bottom: 2px solid #000000;*/
-    /*width: 0.5em;*/
-    /*text-decoration: underline;*/
-/*}*/
+.layer.gym .content .map_container {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.layer.gym .content .map_container .map {
+    left: 1px;
+    position: relative;
+    width: 99%;
+    height: 400px;
+}
+.layer.gym .content .map_container .tail_container {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: table;
+}
+.layer.gym .content .map_container .tail_container * {
+    display: table-cell;
+}
+.layer.gym .content .map_container .tail_container .left_stripe {
+    width: 720px;
+    height: 30px;
+    background-color: white;
+}
+.layer.gym .content .map_container .tail_container .right_stripe {
+    /*width: ;*/
+    height: 30px;
+    background-color: white;
+}
+.layer.gym .content .map_container .tail_container .tail {
+    width: 1px;
+    height: 0;
+    border: 30px solid white;
+    border-top-width: 0;
+    border-bottom-color: transparent;
+}
 
 /*-- req ----------------*/
 
