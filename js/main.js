@@ -37,8 +37,27 @@ function init() {
         myMap.setCenter(kropCenter);
     });
 
-}
+    if($( window ).width() > 1050) {
+        sizeWindow = 1;
+    } else {
+        sizeWindow = 0;
+        $('.content').css({'width' : '900px'});
+    }
 
+    $(window).resize(function() {
+
+        if($( window ).width() > 1050 && sizeWindow != 1) {
+            sizeWindow = 1;
+            $('.content').css({'width' : '1000px'});
+        }
+        if($( window ).width() <= 1050 && sizeWindow != 0) {
+            sizeWindow = 0;
+            $('.content').css({'width' : '950px'});
+        }
+
+    });
+
+}
 
 function fac(n) {
     if(n == 0) {
