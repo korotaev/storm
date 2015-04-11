@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ebaa70a-5eff-4043-8a10-57240eddc726" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="storm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="14" selection-start="1990" selection-end="1990" vertical-scroll-proportion="-12.214286" vertical-offset="475" max-vertical-offset="4180">
+            <state line="146" column="91" selection-start="7394" selection-end="7394" vertical-scroll-proportion="-14.25" vertical-offset="2375" max-vertical-offset="4180">
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="245" column="12" selection-start="5123" selection-end="5123" vertical-scroll-proportion="0.22686568" vertical-offset="4427" max-vertical-offset="10336">
+            <state line="409" column="18" selection-start="9052" selection-end="9052" vertical-scroll-proportion="0.2835821" vertical-offset="7486" max-vertical-offset="10336">
               <folding />
             </state>
           </provider>
@@ -67,8 +66,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -235,14 +234,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="14" selection-start="1990" selection-end="1990" vertical-scroll-proportion="-12.214286" vertical-offset="475" max-vertical-offset="4180">
+        <state line="146" column="91" selection-start="7394" selection-end="7394" vertical-scroll-proportion="-14.25" vertical-offset="2375" max-vertical-offset="4180">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="12" selection-start="5123" selection-end="5123" vertical-scroll-proportion="0.22686568" vertical-offset="4427" max-vertical-offset="10336">
+        <state line="409" column="18" selection-start="9052" selection-end="9052" vertical-scroll-proportion="0.2835821" vertical-offset="7486" max-vertical-offset="10336">
           <folding />
         </state>
       </provider>

@@ -407,7 +407,7 @@ span.dot { position:absolute; text-indent: -1000em; }
 
 
 .layer.gym .content .map_container {
-    margin-top: 10px;
+    margin-top: 14px;
     position: relative;
     width: 100%;
     /*border: 1px solid black;*/
