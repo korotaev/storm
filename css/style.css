@@ -54,7 +54,7 @@ a:hover {
     background-color: grey;
     background-image: url('../img/back.jpg');
     background-size: 100%;
-    padding-top: 35px;
+    /*padding-top: 35px;*/
     padding-bottom: 20px;
 }
 .layer.welcome .logo {
@@ -76,6 +76,21 @@ only screen and (min-device-pixel-ratio: 1.5) {
     }
 }
 
+.layer.welcome .header {
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.layer.welcome .header .phone {
+    font-size: 35px;
+    color: white;
+    /*font-family: fontin;*/
+    /*font-weight: normal;*/
+    display: inline-block;
+    margin-top: 7px;
+}
 .layer.welcome .logo_title .title {
     /*position: absolute;*/
     text-transform: uppercase;
@@ -83,6 +98,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     background-color: white;
     height: 78px;
     line-height: 1.5;
+    margin-bottom: 30px;
 }
 .layer.welcome .logo_title * {
     display: inline-block;
@@ -109,11 +125,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
     background-position: -106px 0;
 }
 
-.layer.welcome .title.phone {
-    font-size: 54px;
-    color: white;
-    margin-top: 10px;
-}
+/*.layer.welcome .title.phone {*/
+    /*font-size: 54px;*/
+    /*color: white;*/
+    /*margin-top: 10px;*/
+/*}*/
 
 /*-- describe ----------------*/
 
