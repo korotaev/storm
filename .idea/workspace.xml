@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ebaa70a-5eff-4043-8a10-57240eddc726" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/back.jpg" afterPath="$PROJECT_DIR$/img/back.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="storm.iws" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="14" selection-start="866" selection-end="866" vertical-scroll-proportion="0.35440415" vertical-offset="171" max-vertical-offset="4237">
+            <state line="129" column="0" selection-start="6086" selection-end="6515" vertical-scroll-proportion="0.46839377" vertical-offset="1999" max-vertical-offset="4237">
               <folding />
             </state>
           </provider>
@@ -49,7 +47,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="1" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="950" max-vertical-offset="10640">
+            <state line="366" column="19" selection-start="7965" selection-end="7965" vertical-scroll-proportion="0.0" vertical-offset="6574" max-vertical-offset="10640">
               <folding />
             </state>
           </provider>
@@ -69,8 +67,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -299,14 +297,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="1" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="950" max-vertical-offset="10640">
+        <state line="366" column="19" selection-start="7965" selection-end="7965" vertical-scroll-proportion="0.0" vertical-offset="6574" max-vertical-offset="10640">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="866" selection-end="866" vertical-scroll-proportion="0.35440415" vertical-offset="171" max-vertical-offset="4237">
+        <state line="129" column="0" selection-start="6086" selection-end="6515" vertical-scroll-proportion="0.46839377" vertical-offset="1999" max-vertical-offset="4237">
           <folding />
         </state>
       </provider>
