@@ -141,6 +141,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
     padding-top: 45px;
     padding-bottom: 45px;
 }
+.layer.describe .content p {
+    margin-bottom: 20px;
+
+}
 
 /*-- video ----------------*/
 
