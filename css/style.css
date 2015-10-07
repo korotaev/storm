@@ -48,6 +48,59 @@ a:hover {
     padding-top: 40px;
 }
 
+
+
+/*-- welcome personal ----------------*/
+
+.layer.welcome.personal {
+    background-color: transparent;
+    background-image: none;
+    background-size: 100%;
+    /*padding-top: 35px;*/
+    padding-bottom: 20px;
+}
+.layer.welcome.personal .content .logo {
+    width: 115px;
+    height: 115px;
+}
+
+.layer.welcome.personal .content .logo_title .title {
+    /*position: absolute;*/
+    letter-spacing: 4px;
+    height: 54px;
+    line-height: 1.75;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.layer.welcome.personal .content .logo_title .end{
+    width: 73px;
+    height: 54px;
+    background-size: 200%;
+    background-image: url('../img/ends.svg');
+}
+.layer.welcome.personal .content .phone, .layer.req.personal .content .phone {
+    font-size: 35px;
+    /*font-family: fontin;*/
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.layer.welcome.personal .content .phone a, .layer.req.personal .content .phone a{
+    color: black;
+}
+.layer.welcome.personal .content .title {
+    margin-bottom: 30px;
+}
+.layer.welcome.personal .content p {
+    width: 850px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.layer.welcome.personal .content .logo_title .end.right{
+    background-position: -73px 0;
+}
+
 /*-- welcome ----------------*/
 
 .layer.welcome {
@@ -60,21 +113,11 @@ a:hover {
 .layer.welcome .logo {
     width: 226px;
     height: 226px;
-    background-image: url('../img/logo.png');
+    background-image: url('../img/logo.svg');
     display: inline-block;
 
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-
-    .layer.welcome .logo {
-        background:url('../img/logo@2x.png');
-        background-size: 226px 226px;
-    }
-}
 
 .layer.welcome .header {
     height: 55px;
@@ -90,6 +133,17 @@ only screen and (min-device-pixel-ratio: 1.5) {
     /*font-weight: normal;*/
     display: inline-block;
     margin-top: 7px;
+}
+.layer.welcome .header .personal, .layer.welcome.personal .content .back {
+    font-size: 21px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.layer.welcome.personal .content .back {
+    text-align: left;
+    left: 30px;
 }
 .layer.welcome .logo_title .title {
     /*position: absolute;*/
@@ -107,19 +161,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .layer.welcome .logo_title .end{
     width: 106px;
     height: 78px;
-    background-image: url('../img/ends.png');
+    background-image: url('../img/ends.svg');
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-    .layer.welcome .logo_title .end{
-        background-image: url('../img/ends@2x.png');
-        background-size: 212px 78px;
-    }
-
-}
-
 
     .layer.welcome .logo_title .end.right{
     background-position: -106px 0;
@@ -207,7 +250,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     position: absolute;
     width: 197px;
     height: 180px;
-    background-image: url('../img/fighters.png');
+    background-image: url('../img/fighters.svg');
     top: 40px;
     left: 15px;
 }
@@ -228,19 +271,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 .layer.phase .content table tr td .phase_pic.p6 {
     background-position: 0 -900px;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-    .layer.phase .content table tr td .phase_pic {
-        width: 197px;
-        height: 180px;
-        background-image: url('../img/fighters@2x.png');
-        background-size: 197px 1080px;
-    }
-
 }
 
 
@@ -496,16 +526,7 @@ span.dot { position:absolute; text-indent: -1000em; }
 .layer.req .phone_black .end{
     width: 106px;
     height: 78px;
-    background-image: url('../img/ends_black.png');
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-    .layer.req .phone_black .end{
-        background-image: url('../img/ends_black@2x.png');
-        background-size: 212px 78px;
-    }
+    background-image: url('../img/ends_black.svg');
 }
 .layer.req .phone_black .end.right{
     background-position: -106px 0;
@@ -555,4 +576,13 @@ only screen and (min-device-pixel-ratio: 1.5) {
     /*background-image: linear-gradient(-180deg, #FF6565 0%, #D33737 100%);*/
 /*}*/
 
+
+/*-- req personal ----------------*/
+
+.layer.req.personal {
+    background-color: transparent;
+}
+.layer.req.personal .content {
+    color: black;
+}
 

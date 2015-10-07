@@ -6,7 +6,7 @@ function init() {
     var myPlacemark;
     var myPlacemark2;
 
-    var kropCenter = [55.744269, 37.591539];
+    var kropCenter = [55.77134501696001,37.58420113086873];
 
     function init2(){
         myMap = new ymaps.Map ("map_krop", {
@@ -14,10 +14,12 @@ function init() {
             zoom: 15,
             controls: ['zoomControl']
         });
-        myPlacemark = new ymaps.Placemark(kropCenter, { content: 'Штурмовой бой', balloonContent: 'Чистый переулок, 6' });
+        myPlacemark = new ymaps.Placemark(kropCenter, { content: 'Штурмовой бой', balloonContent: 'Большая грузинская, 56' });
         myPlacemark2 = new ymaps.Placemark([55.772689, 37.687659], { content: 'Штурмовой бой', balloonContent: 'Малая почтовая, 12' });
         myMap.geoObjects.add(myPlacemark);
         myMap.geoObjects.add(myPlacemark2);
+
+
     }
 
 
